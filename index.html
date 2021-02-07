@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CUỘC THI TÌM HIỂU LỊCH SỬ VIỆT NAM</title>
+    <script type="text/javascript" src="frames/snow.js"></script>
+</head>
+<body id="body">
+    <style id="style">
+
+    </style>
+    <!-- Click Button -->
+
+    <div class="container" id="clickBtn">
+        <div class="row">
+            <div class="col-12 col-lg-12 col-sm-12">
+                <h3 style="text-shadow: 0 0 3px #FF0000;">CUỘC THI TÌM HIỂU LỊCH SỬ VIỆT NAM</h3>
+                <img class="mx-auto d-block" style="width: 60%" src="images/popup-bg_cd6d5aeb006bf0cc8a7ac4bdc78dd2e5.png" alt="popup">
+                <!-- <button id="start" onclick="start()">Start Quiz</button> -->
+                <a id="start" onclick="start()" href="#"><img src="images/btn-open.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Quiz -->
+    <div class="container" id="startQuiz">
+        <div class="row">
+            <div class="col-12 col-lg-12 col-sm-12">
+                <div id="sidebar" name="sidebar" style="margin:-13% 0 0 -44%; position: absolute;">
+                <div id="showResultQuiz"></div>
+                <img src="images/sidebar-bg_f55d018410af172fdbfda996fd0ad601.png" alt="sidebar">
+                </div>
+                <div id="time" style="margin:-13% 0 0 -44%; position: absolute;">
+                    <h6>THỜI GIAN CÒN LẠI: </h6>
+                    <div id="countTime"></div>
+                    <img style="width: 23%; margin: 10% 0 0 7%;"; src="images/popup-bg_cd6d5aeb006bf0cc8a7ac4bdc78dd2e5.png" alt="time">
+                </div>
+                <h2 style="text-align: center; margin-top: 30px; color: #FDCD6A; text-shadow: 0 0 3px #FF0000;">CUỘC THI TÌM HIỂU LỊCH SỬ VIỆT NAM</h2>
+                <img  style="margin-left: 25%;" src="images/hr-sidebar.png" alt="hr">
+                <div class="exam-content" id="quiz"></div>
+                <a href="#"><button id="submit" class="btn btn-primary " style="margin-left: 41%; margin-bottom: 3%;" onclick="finish()">HOÀN THÀNH</button></a>
+                
+                <div id="results"></div>
+            </div>
+        </div>
+    </div>
+    <object data="frames/Dong-Mau-Lac-Hong-Dan-Truong.mp3" width="0" height="0" __idm_frm__="3008"> 
+          <param name="filename" value="frames/Dong-Mau-Lac-Hong-Dan-Truong.mp3"> 
+          <param name="autostart" value="1"> 
+          <param name="playcount" value="false"> 
+    </object>
+    <script src="myscript.js"></script>
+    
+</body>
+</html>

@@ -219,7 +219,7 @@ var myQuestions = [
             C: "20/1 dương lịch",
             D: "25 tháng Chạp"
         },
-        correctAnswer: "A"
+        correctAnswer: "B"
     }
 ];
 //Random câu hỏi
